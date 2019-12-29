@@ -8,7 +8,7 @@ ONION_URL='-'
 
 # Move folder and files needes from Persistent location to respective
 # OS locations for order to host Mumble hidden service.
-cp -avr ${PERSISTENT_ROOT} ${HSDIR_ROOT}
+cp -avr ${PERSISTENT_ROOT}/mumble-server ${HSDIR_ROOT}
 cp -pv ${PERSISTENT_ROOT}/mumble-server.ini ${ETC_ROOT}
 cp -pv ${PERSISTENT_ROOT}/torrc ${TORRC_ROOT}
 
